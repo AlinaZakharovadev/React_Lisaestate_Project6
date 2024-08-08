@@ -21,37 +21,53 @@ function Filter() {
         <div className="item">
           <label htmlFor="type">Type</label>
           <select name="type" id="type">
-            <option value="">Any</option>
+            <option defaultChecked value="rent">
+              Rent{" "}
+            </option>
             <option value="buy">Buy</option>
-            <option value="rent">Rent</option>
           </select>
         </div>
         <div className="item">
           <label htmlFor="property">Property</label>
           <select name="property" id="property">
-            <option value="">Any</option>
-            <option value="apartment">Apartment</option>
+            <option defaultChecked value="apartment">
+              Apartment
+            </option>
             <option value="house">House</option>
             <option value="condo">Condo</option>
             <option value="land">Land</option>
           </select>
         </div>
         <div className="item">
-          <label htmlFor="minPrice">Min Price</label>
+          <label htmlFor="minPrice">$Min Price</label>
           <input
             type="number"
-            id="minPrice"
             name="minPrice"
-            placeholder="Any"
+            min={500}
+            max={10000000}
+            placeholder="$500"
           />
         </div>
         <div className="item">
-          <label htmlFor="maxPrice">Max Price</label>
-          <input type="text" id="maxPrice" name="maxPrice" placeholder="Any" />
+          <label htmlFor="maxPrice">$Max Price</label>
+          <input
+            type="number"
+            name="maxPrice"
+            min={500}
+            max={10000000}
+            placeholder="$10000000"
+          />
         </div>
         <div className="item">
           <label htmlFor="bedroom">Bedroom</label>
-          <input type="text" id="bedroom" name="bedroom" placeholder="Any" />
+          <input
+            type="number"
+            id="bedroom"
+            name="bedroom"
+            min={0}
+            max={6}
+            placeholder="Any"
+          />
         </div>
         <button>
           <img src="/search.png" alt="" />

@@ -2,7 +2,10 @@
 
 .card {
   display: flex;
-  gap: 20px;
+  gap: 16px;
+  padding: 14px;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
 
   .imageContainer {
     flex: 2;
