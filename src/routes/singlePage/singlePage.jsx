@@ -21,6 +21,7 @@ function SinglePage() {
               </div>
               <div className="user">
                 <img src={userData.img} alt="" />
+                <span>{userData.type}</span>
                 <span>{userData.name}</span>
               </div>
             </div>

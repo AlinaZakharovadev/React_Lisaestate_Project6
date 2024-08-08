@@ -18,8 +18,8 @@ export const listData = [
     bathroom: 2,
     price: 1500,
     address: "789 Oxford Street, London",
-    latitude: 52.4862,
-    longitude: -1.8904,
+    latitude: 51.5154,
+    longitude: -0.141,
   },
   {
     id: 3,
@@ -29,8 +29,8 @@ export const listData = [
     bathroom: 1,
     price: 800,
     address: "101 Baker Street, London",
-    latitude: 53.4808,
-    longitude: -2.2426,
+    latitude: 51.5237,
+    longitude: -0.1585,
   },
   {
     id: 4,
@@ -40,8 +40,8 @@ export const listData = [
     bathroom: 1,
     price: 1000,
     address: "234 Kingsway, London,",
-    latitude: 53.8008,
-    longitude: -1.5491,
+    latitude: 51.5181,
+    longitude: -0.1184,
   },
   {
     id: 5,
@@ -51,8 +51,8 @@ export const listData = [
     bathroom: 2,
     price: 1500,
     address: "567 Victoria Road, London",
-    latitude: 53.4084,
-    longitude: -2.9916,
+    latitude: 51.4982,
+    longitude: -0.146,
   },
   {
     id: 6,
@@ -62,8 +62,8 @@ export const listData = [
     bathroom: 1,
     price: 800,
     address: "890 Regent Street, London",
-    latitude: 54.9783,
-    longitude: -1.6174,
+    latitude: 51.5115,
+    longitude: -0.1411,
   },
   {
     id: 7,
@@ -73,8 +73,8 @@ export const listData = [
     bathroom: 1,
     price: 1000,
     address: "112 Piccadilly, London",
-    latitude: 53.3811,
-    longitude: -1.4701,
+    latitude: 51.5099,
+    longitude: -0.1415,
   },
   {
     id: 8,
@@ -84,8 +84,8 @@ export const listData = [
     bathroom: 2,
     price: 1500,
     address: "8765 Main High Street, London",
-    latitude: 51.4545,
-    longitude: -2.5879,
+    latitude: 51.4515,
+    longitude: -0.2073,
   },
 ];
 
@@ -110,11 +110,12 @@ export const singlePostData = {
   bus: "100m away",
   restaurant: "50m away",
   description:
-    "Future alike hill pull picture swim magic chain seed engineer nest outer raise bound easy poetry gain loud weigh me recognize farmer bare danger. actually put square leg vessels earth engine matter key cup indeed body film century shut place environment were stage vertical roof bottom lady function breeze darkness beside tin view local breathe carbon swam declared magnet escape has from pile apart route coffee storm someone hold space use ahead sheep jungle closely natural attached part top grain your grade trade corn salmon trouble new bend most teacher range anybody every seat fifteen eventually",
+    "This charming 80 sqft apartment features 2 cozy bedrooms and a sleek, modern bathroom. Pets are welcome, making it the perfect home for your furry friends. Utilities are the renter's responsibility, ensuring flexibility in your living expenses. To qualify, total household income must be 3x the rent. Nestled in a vibrant neighborhood, this apartment is just a short stroll from a reputable school (250m), a convenient bus stop (100m), and delightful dining options (200m). Enjoy the perfect blend of comfort, convenience, and style in this beautiful home.",
 };
 
 export const userData = {
   id: 1,
   name: "John Doe",
+  type: "owner",
   img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 };

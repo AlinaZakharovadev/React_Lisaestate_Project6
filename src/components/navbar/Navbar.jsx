@@ -13,7 +13,7 @@ function Navbar() {
           <span>LisaEstate</span>
         </Link>
         <Link to="/list">List of Apartaments</Link>
-        <Link to="/new">New Apartment</Link>
+        <Link to="/id">New Apartment</Link>
         {/* <Link to="/">Agents</Link> */}
       </div>
       <div className="right">
