@@ -6,6 +6,11 @@ nav {
   justify-content: space-between;
   align-items: center;
 
+  .active {
+    color: rgb(53, 86, 247);
+    font-weight: 700;
+  }
+
   a {
     transition: all 0.4s ease;
 

@@ -1,20 +1,25 @@
 import { useState } from "react";
 import "./navbar.scss";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
 
+  const getActiveClass = ({ isActive }) => (isActive ? "active" : "");
+
   return (
     <nav>
       <div className="left">
-        <Link to="/" className="logo">
+        <NavLink to="/" className="logo">
           <img src="/logo.png" alt="Logo" />
           <span>LisaEstate</span>
-        </Link>
-        <Link to="/list">List of Apartaments</Link>
-        <Link to="/id">New Apartment</Link>
-        {/* <Link to="/">Agents</Link> */}
+        </NavLink>
+        <NavLink to="/list" className={getActiveClass}>
+          List of Apartaments
+        </NavLink>
+        <NavLink to="/id" className={getActiveClass}>
+          New Apartment
+        </NavLink>
       </div>
       <div className="right">
         <Link to="/">Sign in</Link>
@@ -29,10 +34,15 @@ function Navbar() {
           />
         </div>
         <div className={open ? "menu active" : "menu"}>
-          <Link to="/">Home</Link>
-          <Link to="/about">List of Apartaments</Link>
-          <Link to="/new">New Apartment</Link>
-          {/* <Link to="/">Agents</Link> */}
+          <NavLink to="/" className={getActiveClass}>
+            Home
+          </NavLink>
+          <NavLink to="/about" className={getActiveClass}>
+            List of Apartaments
+          </NavLink>
+          <NavLink to="/id" className={getActiveClass}>
+            New Apartment
+          </NavLink>
           <Link to="/">Sign in</Link>
           <Link to="/">Sign up</Link>
         </div>
