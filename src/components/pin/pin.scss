@@ -3,8 +3,9 @@
   gap: 18px;
 
   .leaflet-marker-icon {
-    background-image: url(src="https://unpkg.com/leaflet@1.9.4/distmarker-icon-2x.png");
+    background-image: url("https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png");
   }
+
   img {
     width: 64px;
     height: 48px;
