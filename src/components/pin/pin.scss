@@ -2,6 +2,9 @@
   display: flex;
   gap: 18px;
 
+  .leaflet-marker-icon {
+    background-image: url("leaflet/dist/images/marker-icon.png");
+  }
   img {
     width: 64px;
     height: 48px;
