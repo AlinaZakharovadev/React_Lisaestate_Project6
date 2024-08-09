@@ -38,10 +38,10 @@ function Navbar() {
             Home
           </NavLink>
           <NavLink to="/about" className={getActiveClass}>
-            List of Apartaments
+            List
           </NavLink>
           <NavLink to="/id" className={getActiveClass}>
-            New Apartment
+            New
           </NavLink>
           <Link to="/">Sign in</Link>
           <Link to="/">Sign up</Link>
