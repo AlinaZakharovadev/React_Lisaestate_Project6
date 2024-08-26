@@ -13,3 +13,4 @@ Welcome to the React Lisaestate Project! This web application is designed to sho
 - **React Router v6**: Provides seamless navigation throughout the app.
 - **Prettier**: Ensures consistent code formatting across the project.
 - **SCSS**: Maintainable styling.
+- **Leaflet maps**
