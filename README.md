@@ -6,3 +6,10 @@ Welcome to the React Lisaestate Project! This web application is designed to sho
 
 - **Browse Listings:** Explore a variety of real estate properties with detailed information.
 - **Responsive Design:** The application is fully responsive, ensuring a seamless experience across all devices.
+
+## Technologies Used
+
+- **ReactJS 18**: The foundation of the app, providing a component-based architecture.
+- **React Router v6**: Provides seamless navigation throughout the app.
+- **Prettier**: Ensures consistent code formatting across the project.
+- **SCSS**: Maintainable styling.
